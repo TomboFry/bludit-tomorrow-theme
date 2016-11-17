@@ -1,0 +1,10 @@
+{
+    "author": "TomboFry",
+    "email": "tom@tombofry.co.uk",
+    "website": "https://tombofry.co.uk",
+    "version": "1.0",
+    "releaseDate": "2016-11-17",
+    "license": "MIT",
+    "compatible": "1.4,1.5,1.5.2",
+    "notes": ""
+}

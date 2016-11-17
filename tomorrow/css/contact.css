@@ -1,0 +1,47 @@
+.alert { padding: 16px;color: white;margin-top: 24px; }
+.alert.error { background-color: crimson }
+.alert.success { background-color: mediumaquamarine }
+
+#form-contact label, #form-contact input, #form-contact textarea {
+	width: 100%;
+	display: block;
+	max-width: 100%;
+	min-width: 25%;
+}
+#form-contact label, #form-contact button {
+	margin-top: 24px;
+}
+#form-contact input, #form-contact textarea {
+	padding: 8px;
+	margin-top: 8px;
+	font-size: 16pt;
+	background-color: #fff;
+	border: 1px solid #333;
+}
+#form-contact input:active, #form-contact textarea:active,
+#form-contact input:focus, #form-contact textarea:focus
+{
+	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+#form-contact button {
+	display: inline-block;
+	padding: 16px;
+	border: 0;
+	background-color: #3fa9f5;
+	color: #fff;
+	border-radius: 12px;
+	font-size: 16pt;
+	-webkit-box-shadow: 0 8px 0 #008CE4;
+	box-shadow: 0 8px 0 #008CE4;
+	margin-bottom: 8px;
+}
+#form-contact button:active {
+	margin-top: 32px;
+	-webkit-box-shadow: inset 0 0 0 #008Ce4;
+	box-shadow: inset 0 0 0 #008Ce4;
+	margin-bottom: 0;
+}
+
+#form-contact input[name="interested"] { display: none }
